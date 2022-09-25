@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(61, 60, 60);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 30px;
+    background-color: rgb(170, 169, 169);
+    border-radius: 10px;
+}
+form input{
+    padding: 10px;
+    font-weight: bold;
+    outline: none;
+    text-align: right;
+    width: 90%;
+}
+div.options{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+div.options span{
+    padding: 20px;
+    background-color: rgb(255, 254, 254);
+    border: 1px solid rgb(61, 60, 60);
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    width: 20px;
+}
+div.options span:hover{
+    background-color: #eee;
+}
+div.options span.ce{
+    background-color: rgb(95, 158, 160);
+    color: white;
+    font-weight: bold;
+    width: 83px;
+}
+div.options span.ce:hover{
+    background-color: rgb(17, 94, 97);
+}
